@@ -1,0 +1,119 @@
+
+.app
+{
+background-color:white;
+font-family: 'Inter', sans-serif;
+}
+
+.NavList
+{
+    display:flex;
+    gap:2rem;
+    list-style:none;
+    justify-content:center;
+    background-color:#545454;
+    position:absolute;
+    margin-left:0;
+    top:0;
+    left:0;
+    margin-top:0;
+    height:3rem;
+    width:100%;
+    padding:1rem;
+}
+
+
+.Nav_Item
+{
+    background-color:#252525;
+    padding:1rem;
+    border:solid 0.1px black;
+    color:white;
+    border-radius:1rem;
+    width:auto;
+    height:auto;
+
+}
+
+
+.Nav_Item:hover {
+  background-color: white;
+  color:black;
+  transform: scale(1.05);
+}
+
+.Back_btn
+{
+    background-color:#252525;
+    padding:1rem;
+    border:solid 0.1px black;
+    color:white;
+    border-radius:2rem;
+    width:8rem;
+    height:1rem;
+}
+
+.Back_btn:hover {
+  background-color: white;
+  color:black;
+  transform: scale(1.05);
+  list-style:none;
+}
+
+
+
+
+.web_content
+{
+    padding:2rem;
+    line-height:1rem;
+    background-color:#CFCFCF;
+    border-radius:1rem;
+
+}
+
+.Navbar
+{
+    margin-top:10rem;
+}
+
+
+.hero
+{
+
+height:20rem;
+width:20rem;
+top:5rem;
+}
+
+.Logo_Name
+{
+ font-size:4rem;
+ color:black;
+}
+
+.stext
+{
+   font-size:2rem;
+}
+
+
+.footer
+{
+    display:flex;
+    gap:10rem;
+    justify-content:center;
+    color:white;
+    background-color:#545454;
+    margin-bottom:0;
+    margin-top:100%;
+    bottom:0;
+    width:100%;
+    padding:3rem;
+}
+
+.footer_list
+{
+    list-style:none;
+}
+
