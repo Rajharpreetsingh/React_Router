@@ -8,17 +8,17 @@ export default function Home()
 
     return(
         <>
-          
-
-          <center>
-             <Navbar/>
+        
+             <center>
              <img src={logo} className="hero"></img>
              <h1 className="Logo_Name">React js</h1>
              <span className="stext">The library for web and native user interfaces</span>
-                    <Footer/>
+          
+            </center>
+
+             <Footer/>
              
-          </center>
-           
+         
         
       
         </>

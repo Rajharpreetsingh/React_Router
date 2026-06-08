@@ -17,12 +17,11 @@ function App()
   return (
     <>
    
+  
 
-      
+       
      <BrowserRouter>
-      <center>
      <Navbar/>
-     </center>
      <Routes>
 
        <Route path="/" element={<Home />}/>

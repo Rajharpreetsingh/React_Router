@@ -11,28 +11,28 @@ export default function Contact()
         <>
           
 
-    
+              
             <p className="web_content">
+                <center>
                 <h2>Contact Details</h2>
                  <span><strong>Name:</strong>RajharpreetSingh</span><br/>
                  <span><strong>Phone:</strong>9682599483</span><br/>
                  <span><strong>Email:</strong>rajharpreetinki@gmail.com</span>
+                 </center>
             </p>
-             
+
             <center>
             <Link to="/">
              <li className="Back_btn">
-              
-
                 <span>Back to Home</span>
-             
+
             </li>
             </Link>
-                 
-            
             </center>
-                 <Footer/>
-      
+
+
+            <Footer/>
+              
         </>
     )
 }
